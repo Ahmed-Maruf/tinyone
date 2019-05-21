@@ -1,0 +1,234 @@
+/*
+ * ──────────────────────────────────────────────────── I ──────────
+ *   :::::: C O L O R S : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────────
+    1) PRIMARY COLOR: #fcdb00;
+    2) SECONDARY COLOR: 
+ */
+
+/*
+ * ────────────────────────────────────────────────────── I ──────────
+ *   :::::: G E N E R A L : :  :   :    :     :        :          :
+ * ────────────────────────────────────────────────────────────────
+ */
+
+*,
+body {
+	font-family: 'PT Sans', sans-serif;
+	color: #010101;
+}
+
+/*
+ * ──────────────────────────────────────────────────── I ──────────
+ *   :::::: H E A D E R : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────────
+ */
+
+header {
+	background-color: #fcdb00;
+	padding: 20px 0;
+}
+
+.menu {
+}
+.menu ul {
+}
+.menu ul li {
+}
+.menu ul li a {
+	font-size: 22px;
+	color: #010101;
+	padding: 0 30px !important;
+}
+
+.menu ul li:last-child a {
+	padding-right: 0 !important;
+}
+/*
+ * ──────────────────────────────────────────────────── I ──────────
+ *   :::::: S L I D E R : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────────
+ */
+
+.slider {
+	background-color: #fcdb00;
+	padding-bottom: 100px;
+}
+
+.slider .carousel-indicators {
+	bottom: -75px;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.inspire {
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.inspire h1 {
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 14px;
+}
+.inspire h5 {
+	font-size: 20px;
+	color: #313841;
+	margin-bottom: 20px;
+}
+.inspire p {
+	font-size: 16px;
+	color: #605e4f;
+	margin-bottom: 36px;
+}
+.inspire ul {
+}
+.inspire ul li {
+}
+.inspire ul li i {
+	font-size: 30px;
+	margin-right: 10px;
+}
+
+/*
+ * ──────────────────────────────────────────────────────── I ──────────
+ *   :::::: F E A T U R E S : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────────────
+ */
+
+.features{
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+.features .tiny{
+	margin-bottom: 60px;
+}
+
+.features .tiny h1{
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.features .tiny p{
+	font-size: 20px;
+}
+
+.features .single{
+	margin-bottom: 50px;
+}
+
+.single .icon{
+	font-size: 50px;
+}
+
+.single .icon-content{
+
+}
+
+.single .icon-content h2{
+
+}
+
+.single .icon-content p{
+
+}
+
+/*
+ * ────────────────────────────────────────────────────── I ──────────
+ *   :::::: C O N T A C T : :  :   :    :     :        :          :
+ * ────────────────────────────────────────────────────────────────
+ */
+.contact{
+	background-color: #010101;
+	padding: 100px 0 120px;
+}
+.contact-box{
+
+}
+.contact-header{
+
+}
+.contact-header h1{
+	font-size: 32px;
+	color: #fcdb00;
+	margin-bottom: 15px;
+
+}
+.contact-header p{
+	font-size: 20px;
+	color: #898989;
+	margin-bottom: 25px;
+}
+.contact-body{
+
+}
+.contact-body .form{
+	margin-bottom: 60px;
+
+}
+.contact-body .form .email{
+	font-size: 16px;
+	color: #898989;
+	padding: 15px 12px;
+	height: 50px;
+	border: none;
+
+}
+.contact-body ul li a {
+
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    font-size: 30px;
+	border: none;
+	border-radius: 5px;
+	display: block;
+	margin-right: 20px;
+
+}
+.contact-body ul li:last-child a {
+	margin-right: 0;
+
+}
+
+.btn-custom {
+
+    background-color: #fcdb00;
+    padding: 12px 35px;
+    font-weight: 700;
+    font-size: 16px;
+	color: #101010;
+
+}
+
+/*
+ * ──────────────────────────────────────────────────── I ──────────
+ *   :::::: F O O T E R : :  :   :    :     :        :          :
+ * ──────────────────────────────────────────────────────────────
+ */
+
+footer{
+	background-color: #010101;
+	padding-bottom: 140px;
+}
+.footer-box{
+}
+.address{
+
+}
+.address p{
+	font-size: 16px;
+	color: #ffffff;
+}
+.footer-link{
+	padding-left: 20px;
+}
+.footer-link ul li a{
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+}

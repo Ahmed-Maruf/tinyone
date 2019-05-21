@@ -1,0 +1,143 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.menu ul li a {
+		text-align: center;
+	}
+	.menu ul li:last-child a {
+		padding: 0 30px !important;
+	}
+
+	/* Slider */
+
+	.inspire {
+		margin-top: 0;
+	}
+
+	.inspire h1 {
+		font-size: 28px;
+	}
+
+	.carousel-indicators li {
+		width: 13px;
+		height: 13px;
+	}
+	.slider .carousel-indicators {
+		bottom: -70px;
+	}
+
+	.features .single {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.features {
+		padding-top: 50px;
+		padding-bottom: 60px;
+	}
+	.contact {
+		padding-top: 50px;
+		padding-bottom: 60px;
+	}
+	.contact-header h1 {
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	.contact-body .form .email {
+		height: 10px;
+		margin-bottom: 10px;
+	}
+	.btn-custom {
+		padding: 10px 30px;
+	}
+	.contact-body ul li a {
+		height: 40px;
+        width: 40px;
+        font-size: 25px;
+	}
+	.contact-body .form {
+		margin-bottom: 40px;
+	}
+	.footer-link{
+		padding-left: 0px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.menu ul li a {
+		text-align: center;
+	}
+	.menu ul li:last-child a {
+		padding: 0 30px !important;
+	}
+
+	/* Slider */
+
+	.inspire {
+		margin-top: 25px;
+	}
+
+	/* Features */
+
+	.features {
+		padding-top: 60px;
+		padding-bottom: 80px;
+	}
+	.single .icon-content h2 {
+		font-size: 21px;
+	}
+	.contact{
+		padding-top: 70px;
+		padding-bottom: 80px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* Header Nav */
+	.menu ul li a {
+		text-align: center;
+	}
+	.menu ul li:last-child a {
+		padding: 0 30px !important;
+	}
+
+	/* Slider */
+
+	.inspire {
+		margin-top: 40px;
+	}
+
+	/* Features */
+
+	.features {
+		padding-top: 80px;
+		padding-bottom: 100px;
+	}
+
+	.features .tiny {
+		margin-bottom: 40px;
+	}
+
+	.single .icon-content h2 {
+		font-size: 21px;
+	}
+
+	.features .tiny p {
+		font-size: 20px;
+	}
+
+	.features .single {
+	}
+
+	.single .icon {
+		font-size: 40px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
